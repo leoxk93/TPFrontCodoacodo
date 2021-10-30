@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+body {
+ 
+    background-color: whitesmoke;
+    background-attachment: scroll;
+    font-family: Arial, Helvetica, sans-serif;
+    /*font-family: 'Dancing Script', cursive;*/
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    height: 100%;
+    /* margin: 0; */
+}
+#seleccionados {
+    text-align: center;
+}
+.producto {
+    text-align: center ;
+    background-color:rgb(202, 194, 190);
+    width: 300px;
+    border-radius: 10px;
+    padding:5px;
+    margin:10px;
+    display:inline-block;
+}
+.subtitulo {
+    padding-left: 40px;
+
+}
+.subtitulo h2 {
+    font-family: 'Dancing Script', cursive; 
+}
+nav {
+    background-color: rgba(106, 165, 106, 0.795);
+    text-align:center;
+    padding: 10px 0px;
+    display:block;
+}
+#botonUnico {
+    color:teal;
+    padding: 50px;
+}
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 30px;
+    /* padding: 10px 10px 10px; */
+
+}
+a:hover {
+    background-color: whitesmoke;
+    /*font-weight: bolder;*/
+}
+ul {
+    list-style-type: none;
+}
+li {
+    display: inline-block;
+}
+h1 {
+    color: rgb(53, 62, 70);
+    font-family: 'Dancing Script', cursive;
+    font-weight: 400;
+    font-size: 72px;
+    text-align: center;
+}
+/*p {
+    background-color: mediumpurple;
+} */  
+footer {
+
+    background-color: rgba(106, 165, 106, 0.795);
+    color:black;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+    
+}
+
+.especial { /* Nos referimos a la CLASE especial*/
+    color:red;
+}
